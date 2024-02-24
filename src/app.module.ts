@@ -9,7 +9,7 @@ import { UserModule } from './user/user.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://basnetaadars123:NEVERMIND@cluster0.hixfr6s.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0',
+      'mongodb_uri',
       ),
     VehicleModule,
     AuthModule,
